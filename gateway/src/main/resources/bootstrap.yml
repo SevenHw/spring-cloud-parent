@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: gateway # 服务名称
+  profiles:
+    active: develop
+  config:
+    # 用用信息配置
+    import: optional:file:.env[.properties]
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ${nacos-server-addr}
+        namespace: ${nacos-namespace}
+      config:
+        server-addr: ${nacos-server-addr} # 配置nacos 服务端地址
+        namespace: ${nacos-namespace}
+        file-extension: yaml #指定yaml格式的配置
+        # 共享配置
+        shared-configs:
+          - application-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
