@@ -15,9 +15,9 @@
 
     <modules>
         <module>provider-domain</module>
-        <module>provider-web</module>
-        <module>provider-service</module>
         <module>provider-dao</module>
+        <module>provider-service</module>
+        <module>provider-web</module>
     </modules>
 
     <properties>
@@ -25,7 +25,5 @@
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
-
 
 </project>

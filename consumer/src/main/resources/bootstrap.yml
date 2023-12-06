@@ -2,7 +2,7 @@ spring:
   application:
     name: consumer # 服务名称
   profiles:
-    active: develop # 环境配置
+    active: ${profiles-active} # 环境配置
   config:
     # 通用信息配置
     import: optional:file:.env[.properties]

@@ -61,6 +61,9 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.3.0.RELEASE</version>
+                <configuration>
+                    <mainClass>cn.seven.ProviderApplication</mainClass>
+                </configuration>
                 <executions>
                     <execution>
                         <goals>

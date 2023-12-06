@@ -2,9 +2,9 @@ spring:
   application:
     name: provider # 服务名称
   profiles:
-    active: ${profiles-active}  # 环境配置
+    active: ${profiles-active} # 环境配置
   config:
-    # 用用信息配置
+    # 通用信息配置
     import: optional:file:.env[.properties]
   cloud:
     nacos:
