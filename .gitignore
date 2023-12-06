@@ -47,3 +47,5 @@ provider/provider-dao/.gitignore
 provider/.gitignore
 consumer/common-uitl/.gitignore
 consumer/common-core/.gitignore
+common/common-core/.gitignore
+common/common-util/.gitignore
