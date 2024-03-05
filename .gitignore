@@ -2,6 +2,7 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+!**/src/tast/**
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
@@ -12,15 +13,6 @@ target/
 *.iml
 *.ipr
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
@@ -29,23 +21,8 @@ target/
 /.nb-gradle/
 build/
 !**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
-.vscode/
+!**/src/test/**
 
 ### Mac OS ###
 .DS_Store
 .idea/
-common/.gitignore
-consumer/.gitignore
-gateway/.gitignore
-provider/provider-web/.gitignore
-provider/provider-service/.gitignore
-provider/provider-domain/.gitignore
-provider/provider-dao/.gitignore
-provider/.gitignore
-consumer/common-uitl/.gitignore
-consumer/common-core/.gitignore
-common/common-core/.gitignore
-common/common-util/.gitignore
